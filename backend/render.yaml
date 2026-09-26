@@ -3,6 +3,7 @@ services:
     name: rural-health-link-backend
     env: node
     plan: free
+    rootDir: backend
     buildCommand: npm install
     startCommand: npm start
     envVars:
